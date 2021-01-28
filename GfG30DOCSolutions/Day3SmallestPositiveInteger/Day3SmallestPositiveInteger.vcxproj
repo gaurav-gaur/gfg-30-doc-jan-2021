@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="Day3SmallestPositiveInteger.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Day3SmallestPositiveIntegerTest.txt" />
+    <Text Include="Day3SmallestPositiveIntegerTestOutput.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
