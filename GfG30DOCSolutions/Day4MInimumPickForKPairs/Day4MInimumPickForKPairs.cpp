@@ -35,7 +35,6 @@ public:
                 break;
             }
         }
-       
         assert(remaining >= 0);
         // If by now, remaining is 0, then we have picked 1 extra
         if (remaining == 0) {
@@ -58,11 +57,12 @@ public:
                     break;
                 }
             }
-            // Despite of going through all the 1s, still there is remaining pairs
+
             if (remaining == 0) {
-                return result;
+                return result; // In this case we need not subtract as pair has just been formed
             }
             else {
+                // Despite of going through all the 1s, still there is remaining pairs
                 return -1;
             }
         }

@@ -39,10 +39,12 @@ public:
         // in scenario where 
         // a should get b, and c should get a        
         // At a's place, store a + (b % n) * n
-        // At c's place, store c + (a + (b % n) * n)%n*n => c + (a % n)*n because ((b % n)*n)%n will be 0
+        // At c's place, store c + (a + (b % n) * n)%n*n => c + (a % n)*n
+        // because ((b % n)*n)%n will be 0
 
         // so to just get b at a, and a at c, if we divide everything by n
-        // then a / n -> 0 because a lies between 0 to n-1 and only b remain there, and b will be stored at a
+        // then a / n -> 0 because a lies between 0 to n-1 and only b remain there, 
+        // and b will be stored at a
         // similary it will work for a at c.
         // Putting it all together
         for (int i = 0; i < n; i++) {
