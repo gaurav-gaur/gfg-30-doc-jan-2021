@@ -44,7 +44,7 @@ public:
             }
         }
 
-        int maxSubMatSum = -INFINITY;
+        int maxSubMatSum = -INT_MIN;
 
         for (int i = 0; i < N - K + 1; i++) {
             int currSubMatSum = 0;

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="Day6MaxSubMatrixSumTest.txt" />
+    <Text Include="Day6MaxSubMatrixSumTestOutput.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day6MaxSubMatrixSum.cpp" />
