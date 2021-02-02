@@ -27,7 +27,8 @@ public:
         // Sort the array
         sort(a, a + n);
 
-        // We need not consider the last element as that has already been considered
+        // We need not consider the last element as that has already been
+        // considered
         for (int i = 0; i < n - 1; i++) {
             // Considering case of negative and positive elements separately
             // Because in case of negative element, second value of the first
@@ -42,12 +43,14 @@ public:
                 // ki - index of k, so j = *ki;
                 // Ex: 
                 // -4 0 3 6 7 
-                // for a[i] = 4, k = 5, ki will be pointer to 6
+                // for a[i] = -4, k = 5, ki will be pointer to 6
                 // so possible pairs will be (-4, 6) and (-4, 7) 
                 int k = -a[i] + 1;
-                // Find out the first value which is equal to or greater than k
+                // Find out the first value which is equal to or greater 
+                // than k
                 int *ki = lower_bound(a, a + n, k);
-                // If there is no value which is equal to or greater than k in range
+                // If there is no value which is equal to or greater than 
+                // k in range
                 // then ki will a + n
                 if (ki != a + n) {
                     result += (a + n - ki); // number of possible pairs
