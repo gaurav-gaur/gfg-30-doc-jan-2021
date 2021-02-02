@@ -22,7 +22,7 @@ public:
         // the starting left and right books at the end
         int start = 0, end = n - 1;
 
-        while (start < end) {
+        while ((end - start) > 1) {
             int candies = min(height[start], height[end]) * 
                           (end - start - 1);
             if (candies > maxCandies) {
