@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day7ValidPairSum", "Day7Val
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day8DamOfCandies", "Day8MaxCandies\Day8MaxCandies.vcxproj", "{DFCACB67-6652-45EE-8BBA-12C320B30E0A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day12BitDifference", "Day12BitDifference\Day12BitDifference.vcxproj", "{9F2FE72E-518E-4212-98B4-23E7B3E87386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{DFCACB67-6652-45EE-8BBA-12C320B30E0A}.Release|x64.Build.0 = Release|x64
 		{DFCACB67-6652-45EE-8BBA-12C320B30E0A}.Release|x86.ActiveCfg = Release|Win32
 		{DFCACB67-6652-45EE-8BBA-12C320B30E0A}.Release|x86.Build.0 = Release|Win32
+		{9F2FE72E-518E-4212-98B4-23E7B3E87386}.Debug|x64.ActiveCfg = Debug|x64
+		{9F2FE72E-518E-4212-98B4-23E7B3E87386}.Debug|x64.Build.0 = Debug|x64
+		{9F2FE72E-518E-4212-98B4-23E7B3E87386}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F2FE72E-518E-4212-98B4-23E7B3E87386}.Debug|x86.Build.0 = Debug|Win32
+		{9F2FE72E-518E-4212-98B4-23E7B3E87386}.Release|x64.ActiveCfg = Release|x64
+		{9F2FE72E-518E-4212-98B4-23E7B3E87386}.Release|x64.Build.0 = Release|x64
+		{9F2FE72E-518E-4212-98B4-23E7B3E87386}.Release|x86.ActiveCfg = Release|Win32
+		{9F2FE72E-518E-4212-98B4-23E7B3E87386}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
