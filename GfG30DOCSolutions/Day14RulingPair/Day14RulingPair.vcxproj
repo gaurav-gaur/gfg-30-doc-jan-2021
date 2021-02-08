@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8c8b7223-544c-4fcb-91e0-80605cf971da}</ProjectGuid>
-    <RootNamespace>Day13CheckTreeTraversal</RootNamespace>
+    <ProjectGuid>{52de51f2-b0cc-42bc-9653-0e5e26bc4cca}</ProjectGuid>
+    <RootNamespace>Day14RulingPair</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="Day13CheckTreeTraversalTest.txt" />
-    <Text Include="Day13CheckTreeTraversalTestOutput.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Day13CheckTreeTraversal.cpp" />
+    <ClCompile Include="Day14RulingPair.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
