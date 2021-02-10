@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{52de51f2-b0cc-42bc-9653-0e5e26bc4cca}</ProjectGuid>
-    <RootNamespace>Day14RulingPair</RootNamespace>
+    <ProjectGuid>{c0716b63-0d51-47c3-830f-48590e896f4a}</ProjectGuid>
+    <RootNamespace>Day16RestrictiveCandyCrush</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Day14RulingPair.cpp" />
+    <ClCompile Include="Day16RestrictiveCandyCrush.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Day14RulingPairTest.txt" />
-    <Text Include="Day14RulingPairTestOutput.txt" />
+    <Text Include="Day16RestrictiveCandyCrushTest.txt" />
+    <Text Include="Day16RestrictiveCandyCrushTestOuput.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
