@@ -17,7 +17,7 @@ class Solution {
 public:
     vector<int> help_classmate(vector<int> arr, int n)
     {
-        /* The below patterns captures all the edge 
+        /* The below pattern captures all the edge 
            conditions (I hope so!)
            Input: 3 8 9 5 2 3 4 5 1 5 1
            Output:2 5 5 2 1 1 1 1 -1 1 -1
@@ -27,8 +27,8 @@ public:
         // 3 8 9 5 2
         // changes to 3 5 5
         // but when 2 starts replacing bigger elements
-        // on left, we should ignored index 2 and 3
-        // so for tracking such cells this has been used
+        // on left, we should ignore index 1 and 2 elements.
+        // So, for tracking such cells this has been used
         vector<bool> modified(n, false);
         // Let's keep 1 element in stack on which we could
         // hang on to, through out hardships, our support!
@@ -43,18 +43,21 @@ public:
                 int j = i - 1;
                 int smallest = arr[i];
                 while (!biggies.empty()) {
-                    // it may happen that all biggies get replaced
-                    // so checking for non emptiness is must
+                    // it may happen that all biggies get replaced.
+                    // Hence checking for non emptiness before
+                    // checking for inequality
                     if (!biggies.empty() && smallest < biggies.top()) {
                         if (modified[j]) {
-                            // already replaced before, so just
-                            // Mr j will go one step back
+                            // These cells have been already replaced
+                            // So Mr j will go one step back.
                             j--;
                         }
                         else {
-                            // Actual work is happening here
-                            // But we need code fort to protect 
-                            // it solid code man!
+                            // Actual work is happening here.
+                            // But we need code fort to protect this
+                            // core piece, hence there are all 
+                            // ifs and whiles
+                            // It's solid code man!
                             arr[j] = smallest;
                             modified[j] = true;
                             biggies.pop();
@@ -69,7 +72,7 @@ public:
                 }
                 if (biggies.empty()) {
                     // Game is not yet over so, support
-                    // should be there
+                    // should be there.
                     biggies.push(smallest);
                 }
             }
@@ -77,7 +80,7 @@ public:
 
         // Oh! man elements in array are over,
         // but what these biggies doing in this stack here
-        // You all can go home with -1s, Thank you!
+        // These all can go home with -1s, Thank you!
         int k = n - 1;
         while (!biggies.empty()) {
             if (modified[k]) {
@@ -86,6 +89,10 @@ public:
             else {
                 arr[k] = -1;
                 biggies.pop();
+                // not really required for purpose of this
+                // problem statement, but let's keep
+                // it here for sack of consistency
+                modified[k] = true;
                 k--;
             }
         }
