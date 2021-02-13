@@ -32,11 +32,6 @@
 *.app
 *.db
 *.db-shm
-GfG30DOCSolutions/.vs/GfG30DOCSolutions/v16/Browse.VC.db-wal
-GfG30DOCSolutions/.vs/GfG30DOCSolutions/v16/.suo
-GfG30DOCSolutions/.vs/GfG30DOCSolutions/v16/Browse.VC.opendb
-GfG30DOCSolutions/.vs/GfG30DOCSolutions/v16/ipch/AutoPCH/70e02e35a12bf37c/DAY2NTHNATURALNUMBER.ipch
-GfG30DOCSolutions/.vs/GfG30DOCSolutions/v16/ipch/AutoPCH/c88982ff947cbde0/DAY1REARRANGEPRANK.ipch
 *.db-wal
 *.tlog
 *.log
@@ -46,5 +41,8 @@ GfG30DOCSolutions/.vs/GfG30DOCSolutions/v16/ipch/AutoPCH/c88982ff947cbde0/DAY1RE
 *.user
 *.filters
 *.ilk
-GfG30DOCSolutions/.vs/GfG30DOCSolutions/v16/ipch/AutoPCH/33d6a7f4589af700/DAY3SMALLESTPOSITIVEINTEGER.ipch
 *.ipch
+
+#Folders
+Debug
+.vs
